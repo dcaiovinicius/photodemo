@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./app/frontend",
+    "paths": {
+      "@app/*": ["./*"],
+      "@assets/*": ["../../app/assets/images/*"]
+    }
+  }
+}

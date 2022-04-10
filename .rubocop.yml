@@ -1,0 +1,18 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - db/schema.rb
+    - db/migrate/*.rb
+    - node_modules/**/*
+    - tmp/**/*
+    - vendor/**/*
+    - .pryrc
+    - Rakefile
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  NewCops: enable # opt-in to new cops by default
+  TargetRubyVersion: 3.0
+
+Style/Documentation:
+  Description: "Document classes and non-namespace modules."
+  Enabled: false
